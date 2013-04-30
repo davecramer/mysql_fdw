@@ -1,0 +1,2 @@
+create server mysql_svr foreign data wrapper mysql_fdw options (address '10.151.131.142', port '3306');
+create user mapping for public server mysql_svr options (username 'orangehrm', password 'duckerli');
